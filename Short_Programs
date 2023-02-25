@@ -1,5 +1,5 @@
 #basic
-"""print("Welcome! Gaurav")
+print("Welcome! Gaurav")
 
 # Defining Variables (by Default String )
 name = "Himani"
