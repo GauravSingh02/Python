@@ -1,0 +1,181 @@
+#basic
+"""print("Welcome! Gaurav")
+
+# Defining Variables (by Default String )
+name = "Himani"
+age = 32
+#Take Input from User
+b=input("What is your name ?")
+print("Entered Name is " +b)
+print( name + " having age is " + str(age))  #Cancatination means convert one Type Integer to Others
+
+#Below code will show the error as Age is string by default
+
+ Old_age = input("enter your age : ")
+new_age = old_age + 2
+print(new_age)
+
+# to fix it above error by Type Conversion
+
+old_age = input("enter your age : ")
+new_age = int(old_age) + 2
+print("Now new age is : " + str(new_age))
+
+# Program for Multiply
+
+a=input("Enter the 1st number : ")
+b=input("Enter the 2nd number : ")
+
+mul= int(a)*int(b)
+
+print("Multiply of those numbers " + a ,"and " + b ,"is " + str(mul))
+
+# Strings
+
+name ="yuvaan"
+print(name.upper()) # It'll return new string with Upper Case
+
+print(name.find('Y')) # This will return -1 which means not found. here Index starts with 0,1,2 ...
+
+print(name.replace('yuvaan','Nitara'))
+
+print(name.replace('vaan','vi'))
+
+print( "vaan" in name)
+
+print(5//2) # Remove float values
+
+print(5 % 2) # Modules operator
+
+print ( 5 ** 2) # Power operator
+
+#Operator Precedence
+
+# If Else with Indentation
+
+age = 13
+
+if age >= 18:
+   print("you are an adult")
+   print("you can vote")
+elif age < 3:
+   print("you are a child")
+else:
+   print("you are in school")
+print("thank you")
+
+
+# Calculator Program
+
+a= input("Enter the number : ")
+b= input("Enter the 2nd number : ")
+op= input("Enter the Operator (+,-,*,/)")
+
+a=int(a)
+b=int(b)
+
+if op == "+":
+   print( a + b)
+elif op == "-":
+   print(a - b)
+elif op == "*":
+   print(a * b)
+elif op == "/":
+   print(a / b)
+else:
+   print("invalid Operator")
+
+i=1
+while i <= 5:
+   print(i)
+   i +=1
+
+# Triangle Print
+# While Loop
+
+i=5
+while i >= 0:
+   print( i * "*")
+   i = i-1
+
+# For Loop
+
+for i in range(8):
+   print(i*i)
+
+# List
+
+marks = [95,97,91, "Maths"]
+
+print(marks)
+
+friends = ["amar", "akbar", "anthony"]
+print(friends[0])
+print(friends[1])
+print(friends[-1])
+print(friends[-2])
+
+friends[0] = "aman"
+print(friends)
+
+print(friends[0:2]) #returns a new list exluding index 2
+
+for friend in friends:
+   print(friend)
+
+
+#Break and Continue
+
+students = ["ram", "shyam", "kishan", "radha", "radhika"]
+
+for student in students:
+   if(student == "radha"):
+       break
+   print(student)
+
+for student in students:
+   if(student == "radha"):
+       continue
+   print("NExt /n " + student)
+
+# Tuples
+
+marks = (95, 98, 97, 97)
+
+print(marks.count(97))
+print(marks.index(97))
+
+
+# Sets are a collection of all unique elements. Indexing is not supported in sets as those are Unordered.
+
+marks = {98, 97, 95, 95}
+print(marks)  # Set contains unique values
+
+for score in marks:
+   print(score)
+
+#  Dictionary is an unordered collection of Items.Dictionary stores a(key, value) pair.
+
+marks = {"math": 99, "chemistry": 98, "physics": 97}
+print(marks)
+print(marks["chemistry"])
+
+marks["english"] = 95
+print(marks)
+
+marks["math"] = 96
+print(marks)   """
+
+# Function
+
+import math
+
+print(dir(math))  #To get all the funtions under Module "Math"
+
+from math import sqrt
+
+print(sqrt(225))
+
+':return.;, import _string
+
+print(dir(_string))
